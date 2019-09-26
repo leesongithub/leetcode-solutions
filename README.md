@@ -5,10 +5,10 @@ Repo for my own education. If you've stumbled upon this without me having shared
 
 Things I've learned:
 
-General:
+# General:
 - Write comments explaining thought process before writing actual code
 
-*Syntax:*
+# Syntax
 
 From Jewels and Stones:
 - .length() is what you use for a string's length
