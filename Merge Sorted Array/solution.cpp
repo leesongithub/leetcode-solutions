@@ -29,5 +29,13 @@ Details
 Runtime: 4 ms, faster than 84.07% of C++ online submissions for Merge Sorted Array.
 Memory Usage: 8.7 MB, less than 89.13% of C++ online submissions for Merge Sorted Array.
         */
+        
+        /*
+        What I learned:
+        - C++ has a really easy sort built in, just sort(starting location, ending location)
+		  ex: to sort the whole array, it's:
+		  sort(arr.begin(), arr.end());
+		- passing in parameters by reference (using &) will directly change those values
+		*/
     }
 };
