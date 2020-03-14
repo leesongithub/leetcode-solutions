@@ -3,14 +3,14 @@ Solutions to Leetcode problems (and some Hacker Rank).
 Repo for my own education. 
 If you've found this without me sharing it... why are you looking at my stuff? 
 
-## Things I've learned:
+# Things I've learned:
 
-# General:
+## General:
 - Write comments explaining thought process before writing actual code
 - Comments can affect leetcode runtime and memory
 - git add / commit / push only works for files in your current folder, not necessarily the whole repo
 
-# Syntax:
+## Syntax:
 
 For C++ Strings and Chars:
 - str.length()
@@ -18,8 +18,7 @@ For C++ Strings and Chars:
 - convert character c to its ASCII integer value with int(c)
 - reverse: convert int i to ASCII character with char(i)
 - you can swap out letters of a string just like an array:
-
-  str[i] = c
+str[i] = c
 - (ref: To Lower Case, Jewels and Stones)
 
 For C++ Loops:
@@ -28,10 +27,8 @@ For C++ Loops:
 For C++ Maps:
 - unordered_map<  > is a hash map in c++!
 - inserting into the hash map is extremely simple:
-
-  hashmap[str[i]]++;        to insert str[i] element
-
-  hashmap.count(str[i]);    to check for a collision with str[i] element
+hashmap[str[i]]++;        to insert str[i] element
+hashmap.count(str[i]);    to check for a collision with str[i] element
 - (ref: Jewels and Stones)
 
 For C++ Trees:
@@ -48,7 +45,7 @@ For C++ Recursion:
   if ... { recurse() }
 - (ref: Range Sum of BST)
 
-For Python Syntax:
+### For Python Syntax:
 - I can't find any built-in methods for isEven(), isOdd(). Just use %2
 - Python doesn't use ++ and -- to increment or decrement. Use x += 1, x -= 1, etc.
 - Python apparently doesn't have block comments! use """ comment """ or lots of single-line comments (hashtag)
