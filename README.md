@@ -3,7 +3,7 @@ Solutions to Leetcode problems (and some Hacker Rank).
 Repo for my own education. 
 If you've found this without me sharing it... why are you looking at my stuff? 
 
-Things I've learned:
+## Things I've learned:
 
 # General:
 - Write comments explaining thought process before writing actual code
@@ -15,10 +15,10 @@ Things I've learned:
 For C++ Strings and Chars:
 - str.length()
 - str[i] works just like an array (i.e. no need for that "array[256]; strcpy(array, str.c_str())" bullshit)
-- to insert a 
 - convert character c to its ASCII integer value with int(c)
 - reverse: convert int i to ASCII character with char(i)
 - you can swap out letters of a string just like an array:
+
   str[i] = c
 - (ref: To Lower Case, Jewels and Stones)
 
@@ -28,7 +28,9 @@ For C++ Loops:
 For C++ Maps:
 - unordered_map<  > is a hash map in c++!
 - inserting into the hash map is extremely simple:
+
   hashmap[str[i]]++;        to insert str[i] element
+
   hashmap.count(str[i]);    to check for a collision with str[i] element
 - (ref: Jewels and Stones)
 
