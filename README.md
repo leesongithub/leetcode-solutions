@@ -50,7 +50,7 @@ int add2(int num) {
 for (auto i : v)
     cout << i
 ```
-- note: "i" IS the element of v. You DO NOT use v[i] (this will break unless the element matches the index, i.e. v={0,1,2...}
+- note: "i" IS the element of v, and works for ints, chars, etc. You DO NOT use v[i] (this will break unless the element matches the index, i.e. v={0,1,2...}
 - Ternary operator:
 ```
 (condition) ? ifTrue : ifFalse;
