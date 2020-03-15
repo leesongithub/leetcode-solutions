@@ -1,6 +1,5 @@
 # leetcode-solutions
 Solutions to Leetcode problems (and some Hacker Rank).
-Repo for my own education. 
 If you've found this without me sharing it... why are you looking at my stuff? 
 
 # Things I've learned:
