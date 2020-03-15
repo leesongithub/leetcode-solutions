@@ -28,8 +28,8 @@ If you've found this without me sharing it... why are you looking at my stuff?
 - unordered_map<  > is a hash map in c++!
 - inserting into the hash map is extremely simple:
 ```cpp
-hashmap[str[i]]++;        to insert str[i] element
-hashmap.count(str[i]);    to check for a collision with str[i] element
+hashmap[str[i]]++;        // to insert str[i] element
+hashmap.count(str[i]);    // to check for a collision with str[i] element
 ```
 - (ref: Jewels and Stones)
 
