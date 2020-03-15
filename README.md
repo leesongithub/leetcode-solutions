@@ -94,3 +94,5 @@ def CustomRange(start, end, step):
     start += step
 ```
 - (ref: Decompress Run-Length Encoded List)
+- a python function returns NoneType if you forget to add a return value
+- integer / integer = a double (due to duck typing)
