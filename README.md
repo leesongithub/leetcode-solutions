@@ -30,7 +30,21 @@ If you've found this without me sharing it... why are you looking at my stuff?
 hashmap[str[i]]++;        // to insert str[i] element
 hashmap.count(str[i]);    // to check for a collision with str[i] element
 ```
-- (ref: Jewels and Stones)
+- map requires an iterator to use the find() function:
+```
+std::map<int, int> OrderedMap;
+std::map<int, int>::iterator it;
+
+it = OrderedMap.find(nums[i]);
+int index = std::distance(OrderedMap.begin(), it);
+results.push_back(index);
+//OrderedMap.erase(it); <-- this line caused a runtime error?
+```
+- if you want the value or key (idk which) to be like an index, insert by the map's size:
+```
+OrderedMap.insert(pair<int, int>(SortedList[i],OrderedMap.size()));
+```
+- (ref: Jewels and Stones, How Many Numbers Are Smaller Than the Current Number)
 
 ### For C++ Trees:
 - (ref: Range Sum of BST)
