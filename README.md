@@ -2,6 +2,8 @@
 Solutions to Leetcode problems (and some Hacker Rank).
 If you've found this without me sharing it... why are you looking at my stuff? 
 
+leetcode username: pleasehireleeson
+
 # Things I've learned:
 
 ## General:
