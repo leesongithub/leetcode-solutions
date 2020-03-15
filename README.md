@@ -9,6 +9,19 @@ If you've found this without me sharing it... why are you looking at my stuff?
 - Comments can affect leetcode runtime and memory
 - git add / commit / push only works for files in your current folder, not necessarily the whole repo
 - Use the small backwards quote (same key as ~) three times for code in a ReadMe.md file (look inside this one!)
+- You can add helper functions in leetcode, just create a new function below the TODO one they give you. example:
+```cpp
+int Solution(vector<int>& nums) {
+    // ... stuff ...
+    int test = add2(3);
+    cout << test; // outputs 5
+    // ... stuff ...
+}
+    
+int add2(int num) {
+  return num+2;
+}
+```
 
 ## Syntax:
 
