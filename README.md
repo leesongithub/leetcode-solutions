@@ -41,7 +41,16 @@ int add2(int num) {
 
 ### For C++ Loops:
 - Change i++ to ```i+=2``` if you want a for loop to count by 2
-
+- Ternary operator:
+```
+(condition) ? ifTrue : ifFalse;
+is the same as:
+if (condition == true) {
+    do the ifTrue statement;
+} else if (condition == false) {
+    do the ifFalse statement;
+}
+```
 ### For C++ Maps:
 - unordered_map<  > is a hash map in c++!
 - inserting into the hash map is extremely simple:
