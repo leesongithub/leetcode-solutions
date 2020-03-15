@@ -20,6 +20,10 @@ If you've found this without me sharing it... why are you looking at my stuff?
 - you can swap out letters of a string just like an array: ```str[i] = c```
 - (ref: To Lower Case, Jewels and Stones)
 
+### For C++ Vectors:
+- vectors have ```.push_back()```, but not ```.push_front()```? (only for lists?)
+- instead you can do ```.insert(v.begin(), element)```
+
 ### For C++ Loops:
 - Change i++ to ```i+=2``` if you want a for loop to count by 2
 
