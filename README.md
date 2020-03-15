@@ -40,7 +40,7 @@ int index = std::distance(OrderedMap.begin(), it);
 results.push_back(index);
 //OrderedMap.erase(it); <-- this line caused a runtime error?
 ```
-- if you want the value or key (idk which) to be like an index, insert by the map's size:
+- if you want the value or key (idk which) to count up from zero like an index, insert by the map's size:
 ```cpp
 OrderedMap.insert(pair<int, int>(SortedList[i],OrderedMap.size()));
 ```
