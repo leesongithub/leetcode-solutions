@@ -39,8 +39,18 @@ int add2(int num) {
 - vectors have ```.push_back()```, but not ```.push_front()```? (only for lists?)
 - instead you can do ```.insert(v.begin(), element)```
 
+### For C++ Types:
+- The "auto" type is similar to python duck-typing; it assumes the type based on usage. See: https://www.learncpp.com/cpp-tutorial/the-auto-keyword/
+- ```const int x = 9; x++;``` <-- this causes a compiler error. "const" keyword prevents the variable from being changed at compile time.
+
 ### For C++ Loops:
 - Change i++ to ```i+=2``` if you want a for loop to count by 2
+- Simple syntax for iterating through a vector v 1-by-1:
+```cpp
+for (auto i : v)
+    cout << i
+```
+- note: "i" IS the element of v. You DO NOT use v[i] (this will break unless the element matches the index, i.e. v={0,1,2...}
 - Ternary operator:
 ```
 (condition) ? ifTrue : ifFalse;
