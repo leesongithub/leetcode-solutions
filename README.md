@@ -13,12 +13,12 @@ If you've found this without me sharing it... why are you looking at my stuff?
 ## Syntax:
 
 For C++ Strings and Chars:
-- str.length()
+- str.length() not str.size() (use size for vectors)
 - str[i] works just like an array (i.e. no need for that "array[256]; strcpy(array, str.c_str())" bullshit)
 - convert character c to its ASCII integer value with int(c)
 - reverse: convert int i to ASCII character with char(i)
 - you can swap out letters of a string just like an array:
-str[i] = c
+```str[i] = c```
 - (ref: To Lower Case, Jewels and Stones)
 
 For C++ Loops:
@@ -27,8 +27,10 @@ For C++ Loops:
 For C++ Maps:
 - unordered_map<  > is a hash map in c++!
 - inserting into the hash map is extremely simple:
+```cpp
 hashmap[str[i]]++;        to insert str[i] element
 hashmap.count(str[i]);    to check for a collision with str[i] element
+```
 - (ref: Jewels and Stones)
 
 For C++ Trees:
@@ -40,9 +42,11 @@ For C++ Trees:
 
 For C++ Recursion:
 - making a recursive function is pretty easy. it just calls itself:
+  ```cpp
   recurse() {
   if ... { break }
   if ... { recurse() }
+  ```
 - (ref: Range Sum of BST)
 
 ### For Python Syntax:
@@ -51,10 +55,14 @@ For C++ Recursion:
 - Python apparently doesn't have block comments! use """ comment """ or lots of single-line comments (hashtag)
 - find out what "lambda" is. it looks like... a shorthand way to make functions? seems powerful.
 - Printing integers/variables within string:
-  print('x is {} and y is {}'.format(x, y))
+```python
+print('x is {} and y is {}'.format(x, y))
+```
 - You can make new methods inside the current method. Here's one for a for-loop with custom step number:
-  def CustomRange(start, end, step):
-            while start <= end:
-                yield start
-                start += step
+```python
+def CustomRange(start, end, step):
+  while start <= end:
+    yield start
+    start += step
+```
 - (ref: Decompress Run-Length Encoded List)
