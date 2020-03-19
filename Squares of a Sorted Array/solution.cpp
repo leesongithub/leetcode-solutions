@@ -19,7 +19,7 @@ public:
         The issue with this? Its complexity. 
         Going through the array and squaring is one pass O(n)
         But the C++ std sort() function is O(nlogn)
-        Meaning that the entire solution is O(n^2 logn)
+        Meaning that the entire solution is O(n+nlogn)
         
         So that's why this solution gets the following leetcode result:
         Success
