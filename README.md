@@ -4,6 +4,8 @@ If you've found this without me sharing it... why are you looking at my stuff?
 
 leetcode username: pleasehireleeson
 
+I really should've named this repo "leescode"
+
 # Things I've learned:
 
 ## General:
