@@ -50,6 +50,7 @@ int add2(int num) {
 for (auto i : v)
     cout << i
 ```
+- note: i is a REFERENCE, and CANNOT directly modify the value. e.g. i++ will not increment all the values of the vector. You need to use a traditional ```for (int i=0; i<v.size(); i++)``` loop for that
 - note: "i" IS the element of v, and works for ints, chars, etc. You DO NOT use v[i] (this will break unless the element matches the index, i.e. v={0,1,2...}
 - Ternary operator:
 ```
